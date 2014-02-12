@@ -1,25 +1,29 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-02-12 12:29:11
+<?php /* Smarty version Smarty-3.1.16, created on 2014-02-12 13:05:14
          compiled from "application\views\templates\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1292952fbcb87aea155-81436606%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3124552fbd3fa503be3-50339879%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '495fc432b3fd34d1f582d189e758c35b360a4790' => 
     array (
       0 => 'application\\views\\templates\\header.tpl',
-      1 => 1392233189,
+      1 => 1392235370,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1292952fbcb87aea155-81436606',
+  'nocache_hash' => '3124552fbd3fa503be3-50339879',
   'function' => 
   array (
   ),
+  'variables' => 
+  array (
+    'baseUrl' => 0,
+  ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_52fbcb87b1aa39_41027363',
+  'unifunc' => 'content_52fbd3fa5495e2_29996261',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52fbcb87b1aa39_41027363')) {function content_52fbcb87b1aa39_41027363($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_52fbd3fa5495e2_29996261')) {function content_52fbd3fa5495e2_29996261($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
@@ -32,4 +36,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         -->
         <title>LP-DW | Licence Professionnelle Développement Web</title>
     </head>
-    <body><?php }} ?>
+    <body>
+
+        <a href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/programme">Programme</a>
+        <a href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/projets">Exemples de projets</a>
+        <a href="<?php echo $_smarty_tpl->tpl_vars['baseUrl']->value;?>
+/contactez-nous">Contactez-nous</a><?php }} ?>

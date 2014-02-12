@@ -42,5 +42,11 @@ $route['default_controller'] = "navigation";
 $route['404_override'] = '';
 
 
+///////////////// Navigation
+$route['programme'] = 'navigation/program';
+$route['projets'] = 'navigation/project';
+$route['contactez-nous'] = 'navigation/contact';
+
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -12,3 +12,7 @@
         <title>LP-DW | Licence Professionnelle Développement Web</title>
     </head>
     <body>
+
+        <a href="{$baseUrl}/programme">Programme</a>
+        <a href="{$baseUrl}/projets">Exemples de projets</a>
+        <a href="{$baseUrl}/contactez-nous">Contactez-nous</a>
