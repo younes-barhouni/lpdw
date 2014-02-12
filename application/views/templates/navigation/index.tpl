@@ -1,1 +1,1 @@
-Salut la Team =D.
+Salut, ce site est pour la {$name}.

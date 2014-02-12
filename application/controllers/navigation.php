@@ -9,7 +9,8 @@ class Navigation extends CI_Controller {
     }
 
     function index() {
-        $this->smarty->assign("name", "Jérôme Kraft");
+        $this->smarty->assign("name", "LPDW");
+
         $this->smarty->view('header');
         $this->smarty->view($this->pathDirectory . 'index');
         $this->smarty->view('footer');
